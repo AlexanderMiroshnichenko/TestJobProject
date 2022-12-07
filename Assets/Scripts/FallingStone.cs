@@ -6,7 +6,7 @@ public class FallingStone : MonoBehaviour
 {
    public bool _isStoneExist;
   [SerializeField] public GameObject stone;
-    public GameObject _stoneClone;
+    private GameObject _stoneClone;
   [SerializeField] public Transform stoneSpawnPoint;
 
     private void Start()
